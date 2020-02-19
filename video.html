@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YOUR TITLE HERE | Internet Health Report</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+      h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
+        margin: 0;
+        padding: 0;
+      }
+      html, body{
+        margin: 0;
+        padding: 0;                     
+      }
+      html{
+        font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;   
+        font-size: 16px;
+      }
+
+      .video-container{
+        position: relative;         
+      }
+        .video-container iframe{
+          width: 100vw;
+          height: 56.25vw;          
+        }
+      .more-information{
+        padding: 1.75rem;
+        box-sizing: border-box;        
+      }       
+        .more-information h1,
+        .more-information p{
+          margin-bottom: 1rem;
+        }        
+
+        @media (min-width: 640px){
+          .more-information .content{
+            columns: 2;
+            column-gap: 1.75rem;
+          }
+          .more-information p{
+            break-inside: avoid;
+          }
+        }
+        @media (min-width: 1024px){
+          html{
+            font-size: 1.4vw;
+          }         
+        }
+
+    </style>
+  </head>
+  <body>
+    <article>
+      <section class="video-container">
+        <!-- ADD YOUR VIDEO EMBED HERE -->
+        <iframe src="https://player.vimeo.com/video/189643729?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </section>
+      <section class="more-information">
+        <header class="header">
+          <h1>Title Title Title</h1>
+        </header>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat, accusamus consequuntur delectus, odit, reiciendis atque voluptates nostrum dolorem amet dolores numquam nesciunt quibusdam voluptatum eos! Eius ab doloribus quaerat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat, accusamus consequuntur delectus, odit, reiciendis atque voluptates nostrum dolorem amet dolores numquam nesciunt quibusdam voluptatum eos! Eius ab doloribus quaerat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat, accusamus consequuntur delectus, odit, reiciendis atque voluptates nostrum dolorem amet dolores numquam nesciunt quibusdam voluptatum eos! Eius ab doloribus quaerat.          
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat, accusamus consequuntur delectus, odit, reiciendis atque voluptates nostrum dolorem amet dolores numquam nesciunt quibusdam voluptatum eos! Eius ab doloribus quaerat.
+          </p>
+      </div>
+      </section>
+    </article>
+  </body>
+</html>
